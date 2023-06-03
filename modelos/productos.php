@@ -12,12 +12,12 @@ class Producto
 
     {
         echo 'Id: '.$this->Id.'<br>';
-        echo 'Id: '.$this->Nombre.'<br>';
-        echo 'Id: '.$this->Precio.'<br>';
-        echo 'Id: '.$this->Stock.'<br>';
+        echo 'Nombre: '.$this->Nombre.'<br>';
+        echo 'Precio: '.$this->Precio.'<br>';
+        echo 'Stock: '.$this->Stock.'<br>';
         echo '<hr>';
-        echo 'Id: '.$this->TipoProducto->Id.'<br>';
-        echo 'Id: '.$this->TipoProducto->Descripcion.'<br>';
+        echo 'Id Producto: '.$this->TipoProducto->Id.'<br>';
+        echo 'Descripcion Producto: '.$this->TipoProducto->Descripcion.'<br>';
     }
 
 }
